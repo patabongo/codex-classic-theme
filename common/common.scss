@@ -514,6 +514,13 @@ span.category-name {
   background-color: $codex-lightblue;
 }
 
+.topic-header-extra {
+    padding-left: 10px;
+    a.discourse-tag {
+        color: $codex-orange;
+    }
+}
+
 .topic-avatar {
   padding: $topic-body-width-padding;
   background-color: $codex-lightblue;
