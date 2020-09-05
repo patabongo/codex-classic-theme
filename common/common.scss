@@ -77,6 +77,10 @@ body {
 }
 
 .d-header {
+  background-color: $codex-greengrey;
+}
+
+.d-header .wrap {
   background-color: $codex-peach;
 }
 
@@ -246,7 +250,7 @@ div.ac-wrap,
 .d-header {
   box-shadow: none;
   height: 5em;
-  border-bottom: 3px solid $codex_peach;
+  border-bottom-style: none;
 }
 
 #site-text-logo {
@@ -793,6 +797,21 @@ aside.quote .title {
 }
 
 //
+// Admin page styles
+// --------------------------------------------------
+
+.admin-controls > li > a,
+.admin-controls .nav-pills > li > a {
+  color: $codex-greengrey;
+  
+}
+
+.admin-footer {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+//
 // List controls
 // --------------------------------------------------
 .list-controls {
@@ -1019,6 +1038,10 @@ table.group-members tr td {
 // --------------------------------------------------
 .body-page {
   padding-top: 1rem;
+}
+
+.post-retort {
+  margin: 20px 5px;
 }
 
 //
