@@ -1,0 +1,21 @@
+{
+  "name": "codex",
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "Default": {
+      "primary": "000000",
+      "secondary": "FFEEDD",
+      "tertiary": "FF6600",
+      "quaternary": "000000",
+      "header_background": "FFEEDD",
+      "header_primary": "EEF9FF",
+      "highlight": "DDDDDD",
+      "danger": "96000e",
+      "success": "1ca551",
+      "love": "F4675E"
+    }
+  }
+}

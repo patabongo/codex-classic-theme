@@ -1,0 +1,121 @@
+//
+// Topics
+// --------------------------------------------------
+.topic-meta-data {
+  position: absolute;
+  top: -37px;
+  width: calc(#{$topic-body-width} - (#{$topic-avatar-width} + #{$topic-body-width-padding}));
+  z-index: 11;
+  padding: 0 !important;
+  right:  $topic-body-width-padding;
+}
+
+.topic-avatar {
+  float: none;
+  border-top: 3px solid $tertiary-medium;
+  width: $topic-body-width;
+  background-color: #fff;
+}
+
+.topic-map .map li {
+  padding: 1rem;
+}
+
+.topic-post .row {
+  width: $topic-body-width + ($topic-body-width-padding * 2);
+}
+
+.topic-body {
+  float: none;
+
+  .reply-to-tab {
+    margin-top: -3px;
+  }
+
+  .regular {
+    margin-top: 0;
+  }
+}
+
+.read-state {
+  right: -35px;
+}
+
+.small-action {
+  max-width: $topic-body-width + ($topic-body-width-padding * 2);
+}
+
+.time-gap + .topic-post .topic-body {
+  border-top: 1px solid #ebebeb;
+}
+
+.time-gap + .topic-post .topic-avatar {
+  border-top: 3px solid $tertiary-medium;
+}
+
+//
+// Embedded posts
+// --------------------------------------------------
+.embedded-posts {
+
+  .row {
+    width: auto;
+    box-shadow: none;
+    margin-bottom: 0;
+  }
+
+  .topic-avatar {
+    float: left;
+    width: auto;
+    border: 0;
+    padding: 1rem 0.5rem 1rem 1rem;
+  }
+
+  .topic-body {
+    float: auto;
+    width: auto;
+    border-top: 0;
+  }
+
+  .topic-meta-data {
+    position: relative;
+    width: auto;
+    right: auto;
+    top: auto;
+
+    .names {
+      padding-left: $topic-body-width-padding;
+    }
+  }
+
+  &.top {
+    margin-left: 0;
+    width: auto;
+
+    .row {
+      margin-bottom: -2rem;
+    }
+
+    .collapse-down {
+      transform: translate(-50%, 200%);
+    }
+  }
+
+  &.bottom {
+    margin: 1rem;
+
+    .collapse-up {
+      background-color: #fff;
+      transform: translate(-70%, -164%);
+    }
+  }
+}
+
+
+//
+// List controls
+// --------------------------------------------------
+.list-controls .navigation-container {
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}

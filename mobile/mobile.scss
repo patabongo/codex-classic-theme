@@ -1,0 +1,159 @@
+@import "common/foundation/variables";
+
+//
+// Layout
+// --------------------------------------------------
+#main-outlet {
+  padding-top: 4.75rem;
+}
+
+//
+// Header
+// --------------------------------------------------
+.d-header {
+  height: 4.5em;
+
+  .title > a:after {
+    padding-right: 0.75rem;
+    font-size: 16px;
+  }
+}
+
+//
+// Navigation
+// --------------------------------------------------
+.list-controls {
+  margin: 1rem 0;
+}
+
+ol.category-breadcrumb {
+  display: flex;
+  width: 100%;
+  float: none;
+
+  li {
+    float: none;
+  }
+}
+
+//
+// Topic list
+// --------------------------------------------------
+.topic-list-main-link a.title,
+.topic-list .main-link a.title,
+.latest-topic-list-item .main-link a.title {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.topic-list-item {
+  .pull-left {
+    margin-left: 0.5rem;
+  }
+
+  .right {
+    margin-right: 0.5rem;
+    margin-left: 65px;
+  }
+}
+
+.topic-list {
+  th,
+  td {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .num.activity a {
+    font-size: 12px;
+  }
+}
+
+//
+// Single Topic
+// --------------------------------------------------
+#topic-title {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+
+  h1 {
+    line-height: 1;
+  }
+}
+
+.topic-meta-data {
+  padding: 1rem 1rem 0.75rem 0;
+  align-items: center;
+}
+
+.topic-post {
+  article {
+    border-top: 0;
+    padding: 0;
+  }
+
+  &:last-of-type {
+    padding-bottom: 0;
+  }
+}
+
+.topic-body {
+  border-top: 3px solid $tertiary-medium;
+
+  .contents {
+    padding: 0.5rem 1rem;
+    border-top: 1px solid #ebebeb;
+  }
+}
+
+.topic-avatar {
+  margin-right: 0;
+}
+
+.topic-map .map li:nth-child(3),
+.topic-map .map li.secondary {
+  .number {
+    margin-top: 0.25rem;
+    display: inline-block;
+  }
+
+  h4 {
+    margin-top: 0.25rem;
+  }
+}
+
+//
+// Topic footer
+// --------------------------------------------------
+div.education {
+  color: $secondary-low;
+}
+
+#topic-footer-buttons .topic-notifications-button .reason {
+  margin: 1rem 0;
+  display: block;
+}
+
+//
+// Other Tables
+// --------------------------------------------------
+.groups-table {
+  background-color: #fff;
+
+  tr {
+    padding: 10px;
+  }
+}
+
+//
+// Modal
+// --------------------------------------------------
+.modal-middle-container {
+  box-sizing: content-box;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.modal-inner-container {
+  min-width: 300px;
+}
