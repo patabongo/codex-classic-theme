@@ -242,6 +242,7 @@ div.ac-wrap,
 
 .btn-text {
   background-color: $codex-yellow;
+  color: #000000 !important;
 }
 
 .sign-up-button {
@@ -490,7 +491,6 @@ ol.category-breadcrumb {
 }
 
 .topic-post .row {
-  box-shadow: $topic-box-shadow;
   margin-bottom: 2rem;
 }
 
