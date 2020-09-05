@@ -241,7 +241,11 @@ div.ac-wrap,
 }
 
 .btn-text {
-  background-color: $color-white;
+  background-color: $codex-yellow;
+}
+
+.sign-up-button {
+  color: #000000;
 }
 
 //
@@ -556,6 +560,10 @@ aside.quote .title {
   }
 }
 
+.post-notice {
+  background-color: $codex-yellow;
+}
+
 //
 // Topic Map
 // --------------------------------------------------
@@ -586,6 +594,11 @@ aside.quote .title {
   .map .number {
     font-weight: 700;
     color: $primary-medium;
+  }
+  
+  .header-buttons > .sign-up-button,
+  .body-pate > sign-up-button {
+    background-color: $codex-yellow;
   }
 
   .widget-button.btn {
