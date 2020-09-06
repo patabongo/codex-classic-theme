@@ -500,6 +500,20 @@ ol.category-breadcrumb {
   border: 1px solid black;
 }
 
+#topic-title .title-wrapper {
+    display: block;
+}
+
+.topic-category {
+  background-color: #ddd;
+  max-width: 639px;
+  color: #000;
+}
+
+.topic-header-extra .discourse-tags .discourse-tag {
+  color: $codex-green;
+}
+
 .fancy-title {
   font-family: $font-sans-serif;
   font-weight: 400;
