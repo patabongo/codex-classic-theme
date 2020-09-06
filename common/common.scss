@@ -495,8 +495,8 @@ ol.category-breadcrumb {
 
 #topic-title h1 {
   background-color: $codex-grey;
-  max-width: 633px;
-  padding: 2px;
+  max-width: 702px;
+  padding: 2px 5px;
   border: 1px solid black;
 }
 
@@ -506,7 +506,7 @@ ol.category-breadcrumb {
 
 .topic-category {
   background-color: #ddd;
-  max-width: 639px;
+  max-width: 713px;
   color: #000;
 }
 
@@ -783,9 +783,36 @@ aside.quote .title {
   }
 }
 
+.boxed.white.admin-content {
+  border-radius: 3px;
+  padding: 15px;
+  background-color: $codex-peach;
+}
+
+.settings .setting h3 {
+  color: #355664;
+}
+
+.admin-contents .admin-controls {
+  .controls {
+    background-color: $codex-peach;
+  }
+  
+  nav {
+    background-color: $codex-peach;
+  
+    li a.active {
+      background-color: inherit;
+    }
+  
+    &:before, &:after {
+      background-color: inherit;
+    }
+  }
+}
+
 .user-stream .item,
 .user-stream .user-stream-item {
-  background-color: $color-white;
   padding: 1rem;
   border-bottom: 1px solid $codex-peach;
 
@@ -856,9 +883,59 @@ aside.quote .title {
   
 }
 
+.stats-title {
+  color: #355664;
+}
+
+.user-primary-navigation li > a,
+.user-primary-navigation li > a.active {
+  color: $color-black;
+}
+
+.user-secondary-navigation {
+  background-color: $color-white;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.user-preferences .form-vertical {
+  width: auto;
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.user-content-wrapper .user-content {
+  border-radius: 3px;
+  background-color: $color-white;
+  padding: 15px;
+}
+
 .admin-footer {
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.reviewable-user-fields:nth-child(odd) {
+    background-color: #cceecc;
+}
+
+.reviewable-user-fields:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.reviewable-scores tbody:nth-child(odd) {
+    background-color: #cceecc;
+}
+
+.reviewable-scores tbody:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.user-content-wrapper .user-primary-navigation {
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding-left: 10px;
 }
 
 //
