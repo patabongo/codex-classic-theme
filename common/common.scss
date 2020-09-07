@@ -513,18 +513,22 @@ div.latest-topic-list-item:nth-last-of-type(2),
 
 #topic-title h1 {
   background-color: $codex-grey;
-  max-width: 702px;
+  max-width: 616px;
   padding: 2px 5px;
   border: 1px solid black;
 }
 
 #topic-title .title-wrapper {
-    display: block;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .topic-category {
   background-color: #ddd;
   display: inline-block;
+  padding: 2px 5px;
   color: #000;
 }
 
