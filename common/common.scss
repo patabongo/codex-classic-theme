@@ -262,6 +262,10 @@ div.ac-wrap,
   border-bottom-style: none;
 }
 
+.title-wrapper .category-name {
+  color: #355664;
+}
+
 #site-text-logo {
   font-family: $font-sans-serif;
   padding-right: 1rem;
@@ -510,7 +514,7 @@ ol.category-breadcrumb {
 
 .topic-category {
   background-color: #ddd;
-  max-width: 713px;
+  display: inline-block;
   color: #000;
 }
 
@@ -787,30 +791,34 @@ aside.quote .title {
   }
 }
 
-.boxed.white.admin-content {
-  border-radius: 3px;
-  padding: 15px;
-  background-color: $codex-peach;
-}
-
 .settings .setting h3 {
   color: #355664;
 }
 
+.boxed.white.admin-content {
+  border-radius: 3px;
+  padding: 15px;
+  background-color: $codex-lightblue;
+}
+
+.admin-detail {
+  background-color: $codex-lightblue;
+}
+
 .admin-contents .admin-controls {
   .controls {
-    background-color: $codex-peach;
+    background-color: $codex-lightblue;
   }
   
   nav {
-    background-color: $codex-peach;
+    background-color: $codex-lightblue;
   
     li a.active {
       background-color: inherit;
     }
   
     &:before, &:after {
-      background-color: inherit;
+      background: inherit;
     }
   }
 }
