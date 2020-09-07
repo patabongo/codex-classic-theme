@@ -418,6 +418,14 @@ div.latest-topic-list-item:nth-last-of-type(2),
   }
 }
 
+.latest-topic-list .table-heading {
+  border-bottom: none;
+  background-color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
 .latest-topic-list .latest-topic-list-item {
   background-color: $codex-yellow;
 }
@@ -1162,6 +1170,10 @@ table.group-members tr td {
 .suggested-topics th {
   color: $color-white;
   font-weight: bold;
+}
+
+.suggested-topics-message a:visited {
+  color #000;
 }
 
 #topic-footer-buttons .topic-notifications-button {
