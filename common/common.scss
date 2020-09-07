@@ -373,7 +373,13 @@ ol.category-breadcrumb {
 
 .category-list .category-list-item {
   padding: 0;
-  border-top: 0 !important;
+}
+
+.category-list > thead > tr,
+.category-list tr:last-child,
+div.latest-topic-list-item:nth-last-of-type(2),
+.topic-list tr:last-child {
+  border-bottom: none;
 }
 
 .directory table,
@@ -426,6 +432,10 @@ ol.category-breadcrumb {
   border-bottom: 1px solid $primary-low;
   background-color: $codex-lightblue;
   font-family: $font-sans-serif;
+}
+
+.topic-list-item td:first-child {
+  border-left: none;
 }
 
 .topic-list-main-link a.title,
@@ -607,6 +617,7 @@ aside.quote .title {
 
 .post-notice {
   background-color: $codex-yellow;
+  border-top: none;
 }
 
 //
