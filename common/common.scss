@@ -76,13 +76,9 @@ body {
   background-color: $codex-greengrey;
 }
 
-.d-header {
-  background-color: $codex-greengrey;
-}
-
 .d-header .wrap {
   background-color: $codex-peach;
-  max-width: 1092px;
+  max-width: 1094px;
   width: calc(100% - 32px);
   width: -webkit-calc(100% - 32px);
   width: -moz-calc(100% - 32px);
@@ -418,14 +414,6 @@ div.latest-topic-list-item:nth-last-of-type(2),
   }
 }
 
-.latest-topic-list .table-heading {
-  border-bottom: none;
-  background-color: #000;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #fff;
-}
-
 .latest-topic-list .latest-topic-list-item {
   background-color: $codex-yellow;
 }
@@ -521,16 +509,8 @@ div.latest-topic-list-item:nth-last-of-type(2),
 
 #topic-title h1 {
   background-color: $codex-grey;
-  max-width: 616px;
   padding: 2px 5px;
   border: 1px solid black;
-}
-
-#topic-title .title-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .topic-category {
@@ -1170,10 +1150,6 @@ table.group-members tr td {
 .suggested-topics th {
   color: $color-white;
   font-weight: bold;
-}
-
-.suggested-topics-message a:visited {
-  color #000;
 }
 
 #topic-footer-buttons .topic-notifications-button {

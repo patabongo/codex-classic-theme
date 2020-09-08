@@ -1,3 +1,16 @@
+// Variables
+// --------------------------------------------------
+
+$codex-greengrey: #355664;
+
+//
+// Header
+// --------------------------------------------------
+
+.d-header {
+  background-color: $codex-greengrey;
+}
+
 //
 // Topics
 // --------------------------------------------------
@@ -17,6 +30,17 @@
 
 .topic-map .map li {
   padding: 1rem;
+}
+
+#topic-title h1 {
+  max-width: 616px;
+}
+
+#topic-title .title-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .topic-post .row {
