@@ -852,7 +852,7 @@ aside.quote .title {
 //
 // Navigation
 // --------------------------------------------------
-.nav-pills > li {
+.list-controls .nav-pills > li {
   & > a {
     color: $codex-grey;
     padding-left: 0;
@@ -954,6 +954,47 @@ aside.quote .title {
 }
 
 //
+// About page
+// -------------------------------------------------
+
+.about-page, .static-faq, .static-tos, .static-privacy {
+  .body-page, div[itemprop="mainContentOfPage"] {
+    background-color: $codex-lightblue;
+    color: #000;
+    padding: 10px;
+    border-radius: 3px;
+	width: auto;
+	
+	ul {
+	  background-color: $codex-lightgrey;
+	  padding:10px;
+	  
+	  li {
+	    a {
+	      color: $color-black;
+		  
+          &:hover {
+            border-bottom: 2px solid $codex_peach;
+            color: $primary;
+          }
+		}
+		
+	    a.active {
+	      background-color: transparent;
+	      color: $color-black;
+	      font-weight: 700;
+	      border-bottom: 2px solid $codex-orange;
+	  	}
+	  }
+	}
+  }
+  
+  h2, h3 {
+    color: $color-black;
+  }	
+}
+
+//
 // List controls
 // --------------------------------------------------
 .list-controls {
@@ -1002,6 +1043,11 @@ aside.quote .title {
 // --------------------------------------------------
 .user-content {
   background-color: transparent;
+}
+
+.user-primary-navigation .nav-pills > li a.active {
+    background-color: transparent;
+	border-bottom: 2px solid $codex-orange;
 }
 
 table.group-members tr td {
@@ -1056,6 +1102,14 @@ table.group-members tr td {
 .badge-card .badge-contents {
   background-color: $color-white;
   border-radius: $layout-border-radius;
+}
+
+.user-info.medium.badge-info {
+  min-height: 80px;
+  min-width: 250px;
+  background-color: $color-white;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 //
