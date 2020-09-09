@@ -1107,9 +1107,35 @@ table.group-members tr td {
 .user-info.medium.badge-info {
   min-height: 80px;
   min-width: 250px;
-  background-color: $color-white;
+  background-color: white;
   padding: 10px;
   border-radius: 3px;
+  margin-right: 2%;
+}
+
+.user-info.medium {
+  flex: 0 0 29%;
+}
+
+// Groups page
+
+groups-boxes .group-box .group-box-inner {
+  background-color: white;
+}
+
+//
+// Tags
+// --------------------------------------------------
+
+.tags-page #main-outlet {
+  margin-top: 80px;
+  max-width: 1094px;
+  background-color: white;
+  border-radius: 3px;
+  
+  h3 {
+    color: $color-black;
+  }
 }
 
 //
@@ -1121,6 +1147,12 @@ table.group-members tr td {
     top: -3px;
     left: 10px;
   }
+}
+
+.cakeday ul.user-info-list {
+  background-color: white;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 //
