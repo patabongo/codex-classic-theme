@@ -78,7 +78,7 @@ body {
 
 .d-header .wrap {
   background-color: $codex-peach;
-  max-width: 1094px;
+  max-width: 1092px;
   width: calc(100% - 32px);
   width: -webkit-calc(100% - 32px);
   width: -moz-calc(100% - 32px);
@@ -403,6 +403,7 @@ div.latest-topic-list-item:nth-last-of-type(2),
   > tbody {
     border-top: none;
     box-shadow: $topic-box-shadow;
+	width: 100%;
   }
 
   td {
@@ -467,6 +468,10 @@ div.latest-topic-list-item:nth-last-of-type(2),
 
 .badge-category-bg {
   border-radius: 9px;
+}
+
+a:visited .category-name {
+  color: $color-black;
 }
 
 .badge-wrapper span.badge-category {
