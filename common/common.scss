@@ -626,7 +626,7 @@ aside.quote .title {
   }
 }
 
-.post-notice {
+.post-notice, .post-notice.old {
   background-color: $codex-yellow;
   border-top: none;
 }
