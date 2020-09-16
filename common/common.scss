@@ -1110,6 +1110,30 @@ table.reviewable-scores {
   }
 }
 
+.directory-controls .period-controls .select-kit.dropdown-select-box.period-chooser .period-chooser-header {
+  background-color: $color-white;
+  border: 1px solid $color-gray-light;
+  border-radius: $layout-border-radius;
+  margin: 0 0 5px 0;
+  padding: 5px;
+  
+  h2 .date-section {
+    color: $color-black;
+  }
+  
+	&:hover {
+	  color: inherit;
+	  box-shadow: 0 0 8px 0 $color-gray-light;
+	  border: 1px solid lighten($color-gray, 20%);
+	  background-color: $color-white;
+	}
+  
+}
+
+.directory .group-filter .select-kit-header {
+  margin-right: 5px;
+}
+
 //
 // User pages
 // --------------------------------------------------
