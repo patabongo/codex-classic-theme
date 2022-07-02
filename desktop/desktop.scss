@@ -17,7 +17,8 @@ $codex-greengrey: #355664;
 .topic-meta-data {
   position: absolute;
   top: -37px;
-  width: calc(#{$topic-body-width} - (#{$topic-avatar-width} + #{$topic-body-width-padding}));
+  width: $topic-body-width;
+  margin: 10px;
   z-index: 11;
   padding: 0 !important;
   right:  $topic-body-width-padding;
@@ -25,7 +26,6 @@ $codex-greengrey: #355664;
 
 .topic-avatar {
   float: none;
-  width: $topic-body-width;
 }
 
 .topic-map .map li {
