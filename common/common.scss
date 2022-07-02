@@ -210,6 +210,10 @@ div.ac-wrap,
   }
 }
 
+.names span > a, .post-infos > .post-date > a {
+  color: #eef9ff !important;
+}
+
 .select-kit.multi-select .choices .selected-name .body:hover {
   background-color: $color-gray-light;
 
