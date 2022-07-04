@@ -133,6 +133,14 @@ $codex-greengrey: #355664;
   }
 }
 
+//
+// Design tweaks only for desktop version
+//
+
+.names span > a, .post-infos > .post-date > a {
+  color: #eef9ff !important;
+}
+
 
 //
 // List controls
