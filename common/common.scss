@@ -214,6 +214,10 @@ aside.quote .title {
     background-color: var(--header_background);
 }
 
+#topic-footer-buttons .pinned-button .reason .text, #topic-footer-buttons .topic-notifications-button .reason .text {
+    color: var(--codex-grey);
+}
+
 /* Thread list pages */
 
 .welcome-cta {

@@ -13,7 +13,7 @@ body.admin-interface .full-width, .admin-container, .admin-contents, .admin-deta
     }
 }
 
-.timeline-container .topic-timeline .timeline-scrollarea {
+.timeline-container .topic-timeline {
     &.timeline-scrollarea {
         border-left: 1px solid var(--codex-grey);
     }
