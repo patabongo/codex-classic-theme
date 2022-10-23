@@ -4,3 +4,22 @@ body.admin-interface .full-width, .admin-container, .admin-contents, .admin-deta
     padding: 10px;
 }
 */
+
+.topic-map .buttons .btn {
+    background: var(--primary-low);
+
+    &:hover {
+        background: var(--primary-very-low);
+    }
+}
+
+.timeline-container .topic-timeline .timeline-scrollarea {
+    &.timeline-scrollarea {
+        border-left: 1px solid var(--codex-grey);
+    }
+
+    &.timeline-handle {
+        background-color: var(--codex-grey);
+    }
+    
+}
