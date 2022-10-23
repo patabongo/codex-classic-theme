@@ -206,6 +206,10 @@ blockquote {
     background-color: white;
 }
 
+aside.quote .title {
+    background-color: var(--header_background);
+}
+
 /* Thread list pages */
 
 .welcome-cta {
