@@ -204,12 +204,9 @@ input[type="text"] {
     background-color: var(--header_background);
 }
 
-.list-container .topic-list-item, .category-list tbody tr {
-  background-color: var(--quaternary);
-}
-
+.list-container .topic-list-item, .category-list tbody tr, .topic-list-item .topic-list-data,
 .latest-topic-list-item {
-    background-color: var(--quaternary);
+  background-color: var(--quaternary);
 }
 
 .topic-list-item.visited td,
@@ -243,4 +240,8 @@ input[type="text"] {
         color: var(--codex-green);
         text-decoration: underline;
     }
+}
+
+.badge-notification.unread-posts {
+    background-color: var(--tertiary);
 }
