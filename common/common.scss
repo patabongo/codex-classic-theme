@@ -202,6 +202,10 @@ aside.onebox {
     background-color: white;
 }
 
+blockquote {
+    background-color: white;
+}
+
 /* Thread list pages */
 
 .welcome-cta {
@@ -226,6 +230,7 @@ aside.onebox {
 .topic-list .topic-list-item-separator .topic-list-data span {
     background-color: var(--header_background);
     border: 1px solid var(--danger-medium);
+    z-index: 1;
 }
 
 .topic-list thead, .categories thead {
