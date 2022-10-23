@@ -1,0 +1,25 @@
+.category-list-item.category {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.category-list-item>footer, .subcategory-list-item>footer {
+	padding-bottom: 0;
+	background-color: white;
+}
+
+.category-list-item.category .topic-list {
+	background-color: var(--quaternary);
+}
+
+.user-preferences form, .user-content>div, body.admin-interface .full-width>div.admin-main-nav, .admin-controls, .admin-container, .admin-contents {
+	background-color: white;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+.admin-detail {
+	background-color: white;
+}

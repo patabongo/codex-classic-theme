@@ -1,0 +1,246 @@
+:root {
+    --tertiary-low: #ffeedd; 
+    --codex-lightblue: #eef9ff;
+    --codex-lightgrey: #e4e4e4;
+    --codex-grey: #dddddd;
+    --codex-green: #1fa59d;
+    --codex-blue: #0000ff;
+    --highlight-medium: #ffeedd;
+}
+
+/* Sidebar styles */
+
+.sidebar-container, .sidebar-footer-wrapper .sidebar-footer-container, .hamburger-panel .revamped, 
+.sidebar-footer-wrapper .sidebar-footer-container:before, .sidebar-hamburger-dropdown,
+.sidebar-hamburger-dropdown .sidebar-footer-wrapper .sidebar-footer-container,
+.sidebar-hamburger-dropdown .sidebar-footer-wrapper .sidebar-footer-container:before {
+    background: none var(--header_background);
+}
+
+/* Menu panel */
+
+.menu-panel .panel-body, #quick-access-all-notifications li {
+    background-color: var(--header_background);
+
+    & a:hover {
+        background-color: var(--codex-lightblue);
+    }
+}
+
+.menu-panel .panel-body-bottom .btn {
+    background-color: var(--codex-grey);
+}
+
+.drop-down-mode .d-header-icons .active .icon {
+    background-color: var(--header_background);
+}
+
+.user-menu.revamped .tabs-list .btn.active {
+    &.btn.active, &.btn:hover {
+        background-color: var(--codex-grey);
+    }
+}
+
+/* Notifications dropdown */
+
+.select-kit.single-select.dropdown-select-box .select-kit-row{
+    background-color: var(--codex-lightblue);
+
+    &.is-selected {
+        background-color: var(--header_background);
+    }
+}
+
+/* Navigation links */
+
+.list-controls .nav-pills>li>a, ul.drop {
+    background-color: var(--codex-lightblue);
+
+    &:hover {
+        background-color: var(--header_background);
+    }
+}
+
+.list-controls .nav-pills .drop {
+    background-color: var(--header_background);
+
+    & li:hover {
+        background-color: var(--codex-lightblue);
+    }
+}
+
+/* Admin Pages */
+
+.user-preferences form, .user-content>div, body.admin-interface .full-width>div.admin-main-nav, .admin-controls, .admin-container, .admin-contents {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.admin-detail {
+    background-color: white;
+}
+
+.admin-container {
+    margin-top: 0;
+    padding: 10px;
+
+}
+
+.admin-content .admin-contents {
+    padding-bottom: 0;
+}
+
+.select-kit.combo-box .select-kit-header, .main .alert.report-alert.no-data, .d-editor-textarea-wrapper {
+    background: none var(--primary-low);
+}
+
+input[type="text"] {
+    background-color: white;
+}
+
+/* Profile Page */
+
+.user-main .about {
+  margin-bottom: 0;
+
+  .details,
+  &.collapsed-info .details {
+    background-color: white;
+    margin-top: 1rem;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+    .primary {
+      padding: 1rem;
+      box-sizing: border-box;
+    }
+  }
+
+  .secondary dt {
+    color: $primary-medium;
+  }
+}
+
+.user-primary-navigation, .user-secondary-navigation, .user-content, .user-preferences {
+  background-color: white;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.user-content {
+    background-color: white;
+}
+
+.nav-pills>li>a:hover, .nav-pills>li button:hover, .nav-pills>li>a.active {
+    background: var(--primary-low);
+    color: black;
+}
+
+.select-kit.multi-select .select-kit-header, .user-stream .item, .user-stream .user-stream-item {
+    background-color: white;
+}
+
+/* Wizard */
+
+.wizard-container, .wizard-container__button.finish {
+    background-color: white;
+}
+
+/* Threads page */
+
+.categories-and-latest .latest-topic-list .table-heading {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.d-editor-preview-wrapper {
+    background: none var(--primary-low);
+    padding: 5px;
+}
+
+
+/* Post pages */
+
+.highlighted {
+    animation: none !important;
+}
+
+.boxed.onscreen-post {
+    margin-bottom: 15px;
+}
+
+.topic-avatar, .topic-body {
+    border-top: none;
+}
+
+.container.posts .row {
+    border: none;
+}
+
+.topic-body {
+    background-color: var(--codex-lightblue);
+    padding: 10px 10px 0 10px;
+    border: 1px solid black;
+}
+
+.topic-avatar {
+    padding: 5px;
+}
+
+#topic-title {
+    padding: 3px;
+    background-color: var(--codex-grey);
+    border: 1px solid black;
+}
+
+/* Thread list pages */
+
+.welcome-cta {
+    background-color: var(--header_background);
+}
+
+.list-container .topic-list-item, .category-list tbody tr {
+  background-color: var(--quaternary);
+}
+
+.latest-topic-list-item {
+    background-color: var(--quaternary);
+}
+
+.topic-list-item.visited td,
+.category-topic-link.visited td,
+.latest-topic-list .latest-topic-list-item.visited {
+    background-color: var(--codex-lightblue);
+
+    & a:hover {
+        color: var(--codex-green) !important;
+    }
+}
+
+.topic-list .topic-list-item-separator .topic-list-data span {
+    background-color: var(--header_background);
+    border: 1px solid var(--danger-medium);
+}
+
+.topic-list thead, .categories thead {
+    background-color: black;
+    text-transform: uppercase;
+
+    & button, span, th.topics {
+        color: white;
+    }
+}
+
+.topic-list .main-link a.title {
+    color: var(--codex-blue);
+
+    &:hover {
+        color: var(--codex-green);
+        text-decoration: underline;
+    }
+}

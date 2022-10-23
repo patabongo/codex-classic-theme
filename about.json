@@ -1,0 +1,21 @@
+{
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+  },
+  "name": "Codex Classic",
+  "color_schemes": {
+    "Codex Classic": {
+      "primary": "222222",
+      "secondary": "355664",
+      "tertiary": "ff6600",
+      "quaternary": "ffff99",
+      "header_background": "ffeedd",
+      "header_primary": "333333",
+      "highlight": "ffff99",
+      "danger": "e45735",
+      "success": "cceecc",
+      "love": "ff6600"
+    }
+  }
+}
