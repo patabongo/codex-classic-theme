@@ -14,11 +14,11 @@ body.admin-interface .full-width, .admin-container, .admin-contents, .admin-deta
 }
 
 .timeline-container .topic-timeline {
-    &.timeline-scrollarea {
+    & .timeline-scrollarea {
         border-left: 1px solid var(--codex-grey);
     }
 
-    &.timeline-handle {
+    & .timeline-handle {
         background-color: var(--codex-grey);
     }
     
