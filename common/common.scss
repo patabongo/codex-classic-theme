@@ -51,9 +51,15 @@
     }
 }
 
-.user-menu.revamped .quick-access-panel {
+.user-menu.revamped .quick-access-panel, .user-menu .quick-access-panel ul {
     background-color: var(--header_background);
 }
+
+#quick-access-all-notifications li.unread {
+    background-color: var(--quaternary);
+}
+
+
 
 /* Navigation links */
 
