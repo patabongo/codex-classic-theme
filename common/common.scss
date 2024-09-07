@@ -1290,6 +1290,13 @@ groups-boxes .group-box .group-box-inner {
 }
 
 //
+// PM chats
+// --------------------------------------------------
+.archetype-private_message .current-user-post .regular.contents {
+	background-color: $codex_peach;
+}
+
+//
 // Alerts
 // --------------------------------------------------
 .alert.alert-info {
