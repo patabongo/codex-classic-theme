@@ -543,6 +543,8 @@ a:visited .category-name {
   }
 }
 
+
+
 //
 // TOPIC PAGE
 // --------------------------------------------------
@@ -620,7 +622,6 @@ aside.quote .title {
 // Lines in between posts
 .small-action {
   border-top: 1px solid black;
-  margin-bottom: 1rem;
 
   .topic-avatar {
     padding: 0;
@@ -932,6 +933,16 @@ aside.quote .title {
       color: $primary;
     }
   }
+}
+
+// Sidebar hamburger menu
+
+div.d-header-wrap > header > div > div > span > button {
+	background-color: $codex-lightgrey;
+	
+	svg {
+		color: $color-black;
+	}
 }
 
 .select-kit.multi-select .select-kit-header,

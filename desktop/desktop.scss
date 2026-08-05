@@ -27,6 +27,14 @@ $color-white: #ffffff;
   background-color: $codex-greengrey;
 }
 
+div.drop-down-mode.d-header-wrap > header > div > div > span > button {
+	color: $codex-lightgrey;
+
+	 svg {
+	 	color: $color-black;
+	 }
+}
+
 //
 // Topics
 // --------------------------------------------------
@@ -57,10 +65,45 @@ $color-white: #ffffff;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
+  
+  h1 {
+  	margin-bottom: 5px;
+  }
+}
+
+div.container.posts div.posts-wrapper div.topic-post div.post__row {
+	background-color: $codex-lightblue;
 }
 
 .topic-post .row {
   width: $topic-body-width + ($topic-body-width-padding * 2);
+}
+
+div.container.posts > div.topic-map.--bottom {
+	padding-left: calc(var(--topic-body-width-padding) + var(--topic-avatar-width));
+	width: $topic-body-width + ($topic-body-width-padding * 2);
+}
+
+div.post__body.topic-body.clearfix > div.post__regular.regular.post__contents.contents {
+
+	div.cooked, section.post-menu-area {
+		padding: 0 1em 0 0;
+	}	
+}
+
+#topic-title > div.title-wrapper > div.topic-category {
+	margin-bottom: 0.5em;
+}
+
+div.time-gap.small-action {
+	border-top: 1px solid $codex-lightblue;
+
+	.small-action-desc.timegap {
+		padding-top: 1em;
+		padding-bottom: 1.5em;
+		padding-left: 0;
+	}
+
 }
 
 .topic-body {
@@ -79,7 +122,7 @@ $color-white: #ffffff;
   right: -35px;
 }
 
-.small-action {
+.small-action, div.post-stream div.post__topic-map.topic-map {
   max-width: $topic-body-width + ($topic-body-width-padding * 2);
 }
 
@@ -215,6 +258,10 @@ table.category-list.with-topics > tbody > tr > td.category {
 
 div.category-text-title > span > span > span > span > span.badge-category__name {
 	color: $color-white;
+}
+
+table.category-list with-topics > tbody > tr > td.category > div.subcategories {
+	margin: auto 1em;
 }
 
 
