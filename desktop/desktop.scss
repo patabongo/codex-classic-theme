@@ -35,6 +35,16 @@ div.drop-down-mode.d-header-wrap > header > div > div > span > button {
 	 }
 }
 
+// Sidebar hamburger menu
+
+div.d-header-wrap span.header-sidebar-toggle button {
+	background-color: $codex-lightgrey;
+	
+	svg {
+		color: $color-black;
+	}
+}
+
 //
 // Topics
 // --------------------------------------------------
@@ -69,6 +79,11 @@ div.drop-down-mode.d-header-wrap > header > div > div > span > button {
   h1 {
   	margin-bottom: 5px;
   }
+}
+
+table.topic-list > thead.topic-list-header > tr > th *, 
+table.topic-list.bookmark-list > thead > tr > th * {
+	color: $color-white;
 }
 
 div.container.posts div.posts-wrapper div.topic-post div.post__row {
@@ -132,6 +147,14 @@ div.time-gap.small-action {
 
 .time-gap + .topic-post .topic-avatar {
   border-top: 3px solid $tertiary-medium;
+}
+
+div:has(> article.small-action.onscreen-post) {
+	max-width: 712px;
+}
+
+.loading-container .topic-timer-info {
+	border-top: 0;
 }
 
 //
@@ -208,28 +231,28 @@ div.welcome-banner {
 	display: none;
 }
 
-thead.category-list-header {
+table.category-list.with-topics thead.category-list-header {
 	display: none;
 }
 
-table.category-list tbody tr td {
+table.category-list.with-topics tbody tr td {
 	display: flex;
 }
 
-div.category-description, td.topics.topic-list-data.num, div.subcategories {
+table.category-list.with-topics div.category-description, table.category-list.with-topics td.topics.topic-list-data.num {
 	display: none;
 }
 
-table.category-list tbody tr td.latest {
+table.category-list.with-topics tbody tr td.latest {
 	display: block;
 }
 
-.categories-list .category-list td {
+table.category-list.with-topics td {
 	
 	color: var(--primary-med-or-secondary-high);
 }
 
-table.category-list td.latest div {
+table.category-list.with-topics td.latest div {
 	padding: 12px 5px;
     border-bottom: 1px solid var(--content-border-color);
 }
@@ -239,7 +262,7 @@ table.category-list td.latest div {
 	font-size: var(--font-up-1);
 }
 
-table.category-list tr td.latest {
+table.category-list.with-topics tr td.latest {
 	border-left: 6px solid var(--category-badge-color, var(--primary-low));
 	border-left-width: var(--d-category-border-accent-width);
 }
@@ -260,8 +283,16 @@ div.category-text-title > span > span > span > span > span.badge-category__name 
 	color: $color-white;
 }
 
-table.category-list with-topics > tbody > tr > td.category > div.subcategories {
+table.category-list.with-topics > tbody > tr > td.category > div.subcategories {
 	margin: auto 1em;
+}
+
+//
+// Profile
+// -------------------------------------------------
+
+div.container.viewing-self > section.user-main > div.new-user-wrapper > * {
+	color: $color-white;
 }
 
 

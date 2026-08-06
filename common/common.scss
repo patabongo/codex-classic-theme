@@ -607,6 +607,15 @@ a:visited .category-name {
   color: $quaternary;
 }
 
+article.small-action.onscreen-post {
+	background-color: $codex-lightblue;
+	padding: 0.5em;
+	
+	.topic-avatar, .small-action-desc {
+		border-top: none;
+	}
+}
+
 // Blockquotes
 aside.quote .title {
   border-left: 5px solid black;
@@ -620,7 +629,7 @@ aside.quote .title {
 }
 
 // Lines in between posts
-.small-action {
+div.small-action {
   border-top: 1px solid black;
 
   .topic-avatar {
@@ -935,16 +944,6 @@ aside.quote .title {
   }
 }
 
-// Sidebar hamburger menu
-
-div.d-header-wrap > header > div > div > span > button {
-	background-color: $codex-lightgrey;
-	
-	svg {
-		color: $color-black;
-	}
-}
-
 .select-kit.multi-select .select-kit-header,
 .select-kit.combo-box .select-kit-header,
 .select-kit.combo-box .combo-box-header {
@@ -1161,7 +1160,9 @@ table.reviewable-scores {
 // User pages
 // --------------------------------------------------
 .user-content {
-  background-color: transparent;
+	padding: 0.5em;
+	border-radius: 3px;
+//  background-color: transparent;
 }
 
 .user-primary-navigation .nav-pills > li a.active {
