@@ -383,6 +383,11 @@ div.ac-wrap,
   }
 }
 
+div.d-header-wrap span.badge-category__name {
+	color: $color-gray;
+	font-weight: bold;
+}
+
 ///
 /// TOPIC LIST
 // --------------------------------------------------
@@ -595,6 +600,16 @@ a:visited .category-name {
     height: $topic-avatar-width;
     width: $topic-avatar-width;
   }
+}
+
+article#post_1.boxed.onscreen-post div.post__topic-map {
+	margin-bottom: 2em;
+	padding: 0.5em;
+}
+
+div.topic-map.--bottom {
+	padding: 0.5em;
+	margin-bottom: 1em;
 }
 
 .topic-status-info {
@@ -1045,6 +1060,18 @@ table.reviewable-scores {
   tbody>tr>td:not(:empty) {
     padding: 0.5em 1em 0.5em 5px;
   }
+}
+
+//
+// Topic flag page
+// ------------------------------------------------
+
+div.review-item__meta-content {
+	background-color: $codex-lightgrey;
+	
+	div.names {
+		color: $codex-orange;
+	}
 }
 
 //

@@ -106,6 +106,10 @@ div.post__body.topic-body.clearfix > div.post__regular.regular.post__contents.co
 	}	
 }
 
+section.post__menu-area.post-menu-area {
+	margin: 0;
+}
+
 #topic-title > div.title-wrapper > div.topic-category {
 	margin-bottom: 0.5em;
 }
@@ -220,7 +224,7 @@ div:has(> article.small-action.onscreen-post) {
 //
 
 .names span > a, .post-infos > .post-date > a {
-  color: #eef9ff !important;
+  color: #eef9ff;
 }
 
 //
